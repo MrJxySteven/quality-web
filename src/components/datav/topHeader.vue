@@ -1,10 +1,7 @@
 <template>
   <div id="top-header">
-    <!-- <dv-decoration-8 class="header-left-decoration" /> -->
-    <!-- <dv-decoration-5 class="header-center-decoration" /> -->
-    <div class="logoWarp">
-      <img src="./img/logo_zj.png" alt="logo">
-    </div>
+    <dv-decoration-8 class="header-left-decoration" />
+    <dv-decoration-5 class="header-center-decoration" />
     <dv-decoration-8 class="header-right-decoration" :reverse="true" />
     <div class="center-title">项目数据总览</div>
   </div>
