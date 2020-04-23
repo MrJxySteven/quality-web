@@ -25,20 +25,21 @@ export default {
     };
   },
   mounted() {
-    this.getOrganExce();
+    // this.getOrganExce();
+    this.createData();
     
     
   },
   methods: {
-    getOrganExce(){
-        let param = {oid:'104396',grule:'-104396-'}
-        getOrganExce(param).then(res => {
-          this.dataProj = res.data
+    // getOrganExce(){
+    //     let param = {oid:'104396',grule:'-104396-'}
+    //     getOrganExce(param).then(res => {
+    //       this.dataProj = res.data
           
-          this.dataProj = {...this.dataProj}
-          this.createData()
-        })
-      },
+    //       this.dataProj = {...this.dataProj}
+    //       this.createData()
+    //     })
+    //   },
     createData() {
       console.log(` this.dataProj==`, this.dataProj)
 

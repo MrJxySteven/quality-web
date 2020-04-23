@@ -70,8 +70,8 @@ export default {
     };
   },
   mounted(){
-    this.getProgressList();
-    this.getNewProjList();
+    // this.getProgressList();
+    // this.getNewProjList();
   },
   methods:{
      //新增项目列表

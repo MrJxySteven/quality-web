@@ -196,7 +196,7 @@ export default {
   },
   mounted() {
     this.createChart1();
-    this.getProTypeExce();
+    // this.getProTypeExce();
   },
   methods: {
     createChart1() {

@@ -62,10 +62,10 @@ export default {
   },
   mounted(){
     let param = {oid:'104396',grule:'-104396-'}
-    getExceByYear(param).then(res => {
-      console.log(`res==`,res)
-      this.list = res
-    })
+    // getExceByYear(param).then(res => {
+    //   console.log(`res==`,res)
+    //   this.list = res
+    // })
   }
 };
 </script>
