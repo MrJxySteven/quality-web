@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@jiaminghi/data-view": "^2.7.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "echarts": "^4.7.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
